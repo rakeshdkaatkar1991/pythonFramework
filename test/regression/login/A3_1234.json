@@ -1,0 +1,8 @@
+{
+  "TC1234": {
+    "username": "admin",
+    "password": "manager",
+    "login_title":"actiTIME - Login",
+     "home_title": "actiTIME - Enter Time-Track"
+         }
+}
