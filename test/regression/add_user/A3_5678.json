@@ -1,13 +1,15 @@
 {
-  "TC5678": {
+  "TC001": {
     "LoginUserName": "admin",
     "LoginPassword": "manager",
-    "FirstName": "Sushmitha",
-    "LastName": "Kamble",
-    "Email_ID": "sushmitha.kamble@gmail.com",
-    "UserName": "Sushti",
-    "Password": "Info@123",
-    "RetypePassword": "Info@123",
+    "FirstName": "Beena",
+    "LastName": "test",
+    "Email_ID": "Beena@gmail.com",
+    "UserName": "Beena",
+    "Password": "Beena@123",
+    "RetypePassword": "Beena@123",
     "DeptDropdownValue": "Quality Control"
              }
+
+
 }
