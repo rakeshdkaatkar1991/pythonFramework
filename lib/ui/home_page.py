@@ -7,7 +7,7 @@ class HomePage:
 
     def get_logout_btn(self):
         try:
-            return self.driver.find_element_by_xpath("//a[@id='logoutLink']")
+            return self.driver.find_element_by_id('logoutLink')
         except:
             return None
 

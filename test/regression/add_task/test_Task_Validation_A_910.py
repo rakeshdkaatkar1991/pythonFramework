@@ -88,6 +88,20 @@ class task_Validation_A_910(unittest.TestCase):
         self.driver.execute_script(js_command)
         self.task_obj.get_CreateProjectButton().click()
         time.sleep(5)
+        #----------------Assign task to Users-------------------------
+        #----------------Enter Customer name in Search field--------------------
+        self.task_obj.get_SearchField().send_keys(data["TC001"]["CustomerName"])
+        #---------------Click on View Customer Project link--------------------------
+        self.task_obj.get_ViewProjectLink(data["TC001"]["ProjectName"]).click()
+        #-----------------Click on Project Checkbox--------------------
+        self.task_obj.get_ProjectCheckBox(data["TC001"]["TaskName"]).click()
+        #-------------------Click on Assign To link----------------
+        self.task_obj.get_AssignToLink().click()
+        #--------------------Click on Assign button---------------------
+        self.task_obj.get_AssignButton().click()
+        time.sleep(3)
+
+
 
 
 
