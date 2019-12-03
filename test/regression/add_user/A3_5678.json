@@ -2,12 +2,12 @@
   "TC001": {
     "LoginUserName": "admin",
     "LoginPassword": "manager",
-    "FirstName": "Zeena",
+    "FirstName": "Feena",
     "LastName": "test",
-    "Email_ID": "Zeena@gmail.com",
-    "UserName": "Zeena",
-    "Password": "Zeena@123",
-    "RetypePassword": "Zeena@123",
+    "Email_ID": "Feena@gmail.com",
+    "UserName": "Feena",
+    "Password": "Feena@123",
+    "RetypePassword": "Feena@123",
     "DeptDropdownValue": "Quality Control"
              }
 
